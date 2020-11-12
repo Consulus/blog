@@ -36,10 +36,10 @@ const Sidebar = () => {
         </div>
         <div className="sidebar__loacation">
           <img src={pin} alt="location" className="sidebar__icon" />
-          Kolkata, India
+          Simferopol, Russia
         </div>
-        <div className="sidebar__item">code.sumax@gmail.com</div>
-        <div className="sidebar__item">7835323423/987654321</div>
+        <div className="sidebar__item">tumanovser@mail.ru</div>
+        <div className="sidebar__item">987654321</div>
       </div>
       <div className="sidebar__item sidebar__email">email me</div>
     </div>
