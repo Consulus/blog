@@ -15,21 +15,21 @@ const Sidebar = () => {
       </div>
       <div className="sidebar__item sidebar__title">Web Developer</div>
       <a href="!#">
-        <div className="sidebar__item">
+        <div className="sidebar__item sidebar__resume">
           <img src={tie} alt="resume" className="sidebar__icon" /> Download
           Resume
         </div>
       </a>
-      <figure className="sidebar__social-icons">
+      <figure className="sidebar__social-icons my-2">
         <a href="#">
-          <img src={facebook} alt="facebook" className="sidebar__icon" />
+          <img src={facebook} alt="facebook" className="sidebar__icon mr-3" />
         </a>
         <a href="#">
           <img src={instagram} alt="instagram" className="sidebar__icon" />
         </a>
       </figure>
-      <div className="contact">
-        <div className="sidebar__item">
+      <div className="sidebar__contact">
+        <div className="sidebar__item sidebar__github">
           <a href="#">
             <img src={github} alt="github" className="sidebar__icon" /> github
           </a>
@@ -41,7 +41,9 @@ const Sidebar = () => {
         <div className="sidebar__item">tumanovser@mail.ru</div>
         <div className="sidebar__item">987654321</div>
       </div>
-      <div className="sidebar__item sidebar__email">email me</div>
+      <div className="sidebar__item sidebar__email">
+        <p>email me</p>
+      </div>
     </div>
   );
 };
